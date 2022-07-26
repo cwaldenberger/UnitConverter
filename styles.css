@@ -1,0 +1,77 @@
+/* boilerplate css */
+
+
+body{
+    margin: 0;
+    background-color: gray;
+    min-width: 1100px;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 35vh;
+    padding: 2rem;
+    background-color: #6943FF;
+    color: #FFF;
+}
+
+#number{
+    font-size: 3rem;
+    font-weight: bold;
+    width: 4rem;
+    padding: 1rem;
+    border: solid 1px #B295FF;
+    border-radius: 3px;
+    background-color: #6943FF;
+    text-align: center;
+    color:#fff;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#convert{
+    margin-top: 2rem;
+    padding: 1rem 2.25rem;
+}
+
+.conversions{
+    background-color: #1F2937;
+    color: #FFF;
+    width: 45%;
+    height: 65vh;
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.conversions h3{
+    color: #CCC1FF;
+}
+
+
+.conversion-instance{
+    background-color: #273549;
+    width: 90%;
+    height: 20%;
+    margin: 1rem 0;
+}
